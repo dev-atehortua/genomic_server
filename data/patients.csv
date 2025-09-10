@@ -1,1 +1,2 @@
 patient_id,full_name,document_id,age,sex,contact_email,registration_date,clinical_notes,checksum_fasta,file_size_bytes,active
+PAT-1B88DDC0,"Santiago",12345,18,M,santi@gmail.com,2025-09-10 15:05:49,"Enamorado",2668696781ae2585aefb51c709e7ad6265eacd80d9a501fba5438f37b25a1de6,284,true

@@ -1,17 +1,15 @@
-2025-09-09 21:08:24.328 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.PatientService - Created new CSV file: data/patients.csv
-2025-09-09 21:08:24.334 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.PatientService - Created new report file: data/disease_reports.csv
-2025-09-09 21:08:24.334 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.PatientService - Loading patients from CSV file: data/patients.csv
-2025-09-09 21:08:24.338 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Starting Genomic Server...
-2025-09-09 21:08:24.338 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Loading disease database...
-2025-09-09 21:08:24.339 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loading disease database from catalog: data/disease_catalog.csv
-2025-09-09 21:08:24.343 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: CANC001 - Lung Cancer Marker
-2025-09-09 21:08:24.344 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: DIAB001 - Type 1 Diabetes Susceptibility
-2025-09-09 21:08:24.345 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HEART001 - Cardiac Arrhythmia Risk
-2025-09-09 21:08:24.347 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: ALZH001 - Alzheimer's Disease Risk
-2025-09-09 21:08:24.349 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HYPER001 - Hypertension Predisposition
-2025-09-09 21:08:24.349 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Disease database loaded successfully. Total diseases: 5
-2025-09-09 21:08:24.349 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Disease database loaded successfully. Total diseases: 5
-2025-09-09 21:08:24.353 [com.genomic.server.GenomicServer.main()] ERROR com.genomic.server.GenomicServer - Failed to start server: server.keystore (El sistema no puede encontrar el archivo especificado)
+2025-09-10 14:44:02.689 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.PatientService - Loading patients from CSV file: data/patients.csv
+2025-09-10 14:44:02.703 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Starting Genomic Server...
+2025-09-10 14:44:02.703 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Loading disease database...
+2025-09-10 14:44:02.703 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loading disease database from catalog: data/disease_catalog.csv
+2025-09-10 14:44:02.703 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: CANC001 - Lung Cancer Marker
+2025-09-10 14:44:02.719 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: DIAB001 - Type 1 Diabetes Susceptibility
+2025-09-10 14:44:02.719 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HEART001 - Cardiac Arrhythmia Risk
+2025-09-10 14:44:02.719 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: ALZH001 - Alzheimer's Disease Risk
+2025-09-10 14:44:02.719 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HYPER001 - Hypertension Predisposition
+2025-09-10 14:44:02.719 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Disease database loaded successfully. Total diseases: 5
+2025-09-10 14:44:02.719 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Disease database loaded successfully. Total diseases: 5
+2025-09-10 14:44:02.719 [com.genomic.server.GenomicServer.main()] ERROR com.genomic.server.GenomicServer - Failed to start server: server.keystore (El sistema no puede encontrar el archivo especificado)
 java.io.FileNotFoundException: server.keystore (El sistema no puede encontrar el archivo especificado)
 	at java.base/java.io.FileInputStream.open0(Native Method)
 	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
@@ -24,83 +22,49 @@ java.io.FileNotFoundException: server.keystore (El sistema no puede encontrar el
 	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:360)
 	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:280)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-2025-09-09 21:08:24.360 [Thread-2] INFO  com.genomic.server.GenomicServer - Stopping Genomic Server...
-2025-09-09 21:08:24.360 [Thread-2] INFO  com.genomic.server.GenomicServer - Server stopped
-2025-09-09 21:08:49.650 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.PatientService - Loading patients from CSV file: data/patients.csv
-2025-09-09 21:08:49.666 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Starting Genomic Server...
-2025-09-09 21:08:49.666 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Loading disease database...
-2025-09-09 21:08:49.666 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loading disease database from catalog: data/disease_catalog.csv
-2025-09-09 21:08:49.666 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: CANC001 - Lung Cancer Marker
-2025-09-09 21:08:49.666 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: DIAB001 - Type 1 Diabetes Susceptibility
-2025-09-09 21:08:49.666 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HEART001 - Cardiac Arrhythmia Risk
-2025-09-09 21:08:49.666 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: ALZH001 - Alzheimer's Disease Risk
-2025-09-09 21:08:49.666 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HYPER001 - Hypertension Predisposition
-2025-09-09 21:08:49.666 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Disease database loaded successfully. Total diseases: 5
-2025-09-09 21:08:49.666 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Disease database loaded successfully. Total diseases: 5
-2025-09-09 21:08:49.666 [com.genomic.server.GenomicServer.main()] ERROR com.genomic.server.GenomicServer - Failed to start server: server.keystore (El sistema no puede encontrar el archivo especificado)
-java.io.FileNotFoundException: server.keystore (El sistema no puede encontrar el archivo especificado)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
-	at com.genomic.server.GenomicServer.setupSSL(GenomicServer.java:73)
-	at com.genomic.server.GenomicServer.start(GenomicServer.java:43)
-	at com.genomic.server.GenomicServer.main(GenomicServer.java:119)
+2025-09-10 14:44:02.719 [Thread-2] INFO  com.genomic.server.GenomicServer - Stopping Genomic Server...
+2025-09-10 14:44:02.719 [Thread-2] INFO  com.genomic.server.GenomicServer - Server stopped
+2025-09-10 15:01:02.593 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.PatientService - Loading patients from CSV file: data/patients.csv
+2025-09-10 15:01:02.598 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Starting Genomic Server...
+2025-09-10 15:01:02.599 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Loading disease database...
+2025-09-10 15:01:02.600 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loading disease database from catalog: data/disease_catalog.csv
+2025-09-10 15:01:02.603 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: CANC001 - Lung Cancer Marker
+2025-09-10 15:01:02.604 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: DIAB001 - Type 1 Diabetes Susceptibility
+2025-09-10 15:01:02.605 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HEART001 - Cardiac Arrhythmia Risk
+2025-09-10 15:01:02.606 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: ALZH001 - Alzheimer's Disease Risk
+2025-09-10 15:01:02.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HYPER001 - Hypertension Predisposition
+2025-09-10 15:01:02.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Disease database loaded successfully. Total diseases: 5
+2025-09-10 15:01:02.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Disease database loaded successfully. Total diseases: 5
+2025-09-10 15:01:02.975 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - SSL/TLS configured successfully
+2025-09-10 15:01:02.975 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Server started on port 8443 with SSL/TLS
+2025-09-10 15:04:42.132 [com.genomic.client.GenomicClient.main()] INFO  com.genomic.client.GenomicClient - Connecting to server at localhost:8443
+2025-09-10 15:04:42.335 [com.genomic.client.GenomicClient.main()] INFO  com.genomic.client.GenomicClient - Connected to server successfully
+2025-09-10 15:04:42.337 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - New client connection accepted
+2025-09-10 15:04:42.338 [pool-1-thread-1] INFO  com.genomic.server.ClientHandler - Client connected from: /127.0.0.1:61143
+2025-09-10 15:05:49.455 [pool-1-thread-1] INFO  com.genomic.service.PatientService - Created new patient: PAT-1B88DDC0 (Santiago)
+2025-09-10 15:05:49.457 [pool-1-thread-1] INFO  com.genomic.server.ClientHandler - Created patient: PAT-1B88DDC0
+2025-09-10 15:07:26.680 [pool-1-thread-1] INFO  com.genomic.server.ClientHandler - Retrieved patient: PAT-1B88DDC0
+2025-09-10 15:08:57.919 [pool-1-thread-1] ERROR com.genomic.server.ClientHandler - Error processing message: Invalid message format: missing EOT
+2025-09-10 15:08:57.920 [pool-1-thread-1] ERROR com.genomic.server.ClientHandler - Error processing message: Invalid message format: missing EOT
+2025-09-10 15:08:57.920 [pool-1-thread-1] ERROR com.genomic.server.ClientHandler - Error processing message: Invalid message format: missing EOT
+2025-09-10 15:08:57.921 [pool-1-thread-1] ERROR com.genomic.server.ClientHandler - Error processing message: Invalid message format: missing EOT
+2025-09-10 15:08:57.922 [pool-1-thread-1] ERROR com.genomic.server.ClientHandler - Error processing message: Invalid message format: missing EOT
+2025-09-10 15:08:57.923 [pool-1-thread-1] ERROR com.genomic.server.ClientHandler - Error processing message: Invalid message format: missing EOT
+2025-09-10 15:08:57.924 [pool-1-thread-1] ERROR com.genomic.server.ClientHandler - Error processing message: Index 0 out of bounds for length 0
+2025-09-10 15:09:06.711 [com.genomic.client.GenomicClient.main()] ERROR com.genomic.client.GenomicClient - Error starting client: null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at com.genomic.client.GenomicClient.showMenu(GenomicClient.java:68)
+	at com.genomic.client.GenomicClient.start(GenomicClient.java:49)
+	at com.genomic.client.GenomicClient.main(GenomicClient.java:318)
 	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:371)
 	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:360)
 	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:280)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-2025-09-09 21:08:49.666 [Thread-2] INFO  com.genomic.server.GenomicServer - Stopping Genomic Server...
-2025-09-09 21:08:49.666 [Thread-2] INFO  com.genomic.server.GenomicServer - Server stopped
-2025-09-09 21:10:41.004 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.PatientService - Loading patients from CSV file: data/patients.csv
-2025-09-09 21:10:41.007 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Starting Genomic Server...
-2025-09-09 21:10:41.008 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Loading disease database...
-2025-09-09 21:10:41.008 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loading disease database from catalog: data/disease_catalog.csv
-2025-09-09 21:10:41.010 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: CANC001 - Lung Cancer Marker
-2025-09-09 21:10:41.010 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: DIAB001 - Type 1 Diabetes Susceptibility
-2025-09-09 21:10:41.011 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HEART001 - Cardiac Arrhythmia Risk
-2025-09-09 21:10:41.012 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: ALZH001 - Alzheimer's Disease Risk
-2025-09-09 21:10:41.012 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HYPER001 - Hypertension Predisposition
-2025-09-09 21:10:41.012 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Disease database loaded successfully. Total diseases: 5
-2025-09-09 21:10:41.013 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Disease database loaded successfully. Total diseases: 5
-2025-09-09 21:10:41.015 [com.genomic.server.GenomicServer.main()] ERROR com.genomic.server.GenomicServer - Failed to start server: ssl\server.keystore (El sistema no puede encontrar la ruta especificada)
-java.io.FileNotFoundException: ssl\server.keystore (El sistema no puede encontrar la ruta especificada)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
-	at com.genomic.server.GenomicServer.setupSSL(GenomicServer.java:73)
-	at com.genomic.server.GenomicServer.start(GenomicServer.java:43)
-	at com.genomic.server.GenomicServer.main(GenomicServer.java:119)
-	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:371)
-	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:360)
-	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:280)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-2025-09-09 21:10:41.019 [Thread-2] INFO  com.genomic.server.GenomicServer - Stopping Genomic Server...
-2025-09-09 21:10:41.019 [Thread-2] INFO  com.genomic.server.GenomicServer - Server stopped
-2025-09-09 21:23:01.237 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.PatientService - Loading patients from CSV file: data/patients.csv
-2025-09-09 21:23:01.244 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Starting Genomic Server...
-2025-09-09 21:23:01.244 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Loading disease database...
-2025-09-09 21:23:01.244 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loading disease database from catalog: data/disease_catalog.csv
-2025-09-09 21:23:01.244 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: CANC001 - Lung Cancer Marker
-2025-09-09 21:23:01.244 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: DIAB001 - Type 1 Diabetes Susceptibility
-2025-09-09 21:23:01.244 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HEART001 - Cardiac Arrhythmia Risk
-2025-09-09 21:23:01.253 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: ALZH001 - Alzheimer's Disease Risk
-2025-09-09 21:23:01.253 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HYPER001 - Hypertension Predisposition
-2025-09-09 21:23:01.253 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Disease database loaded successfully. Total diseases: 5
-2025-09-09 21:23:01.253 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Disease database loaded successfully. Total diseases: 5
-2025-09-09 21:23:01.253 [com.genomic.server.GenomicServer.main()] ERROR com.genomic.server.GenomicServer - Failed to start server: server.keystore (El sistema no puede encontrar el archivo especificado)
-java.io.FileNotFoundException: server.keystore (El sistema no puede encontrar el archivo especificado)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
-	at com.genomic.server.GenomicServer.setupSSL(GenomicServer.java:73)
-	at com.genomic.server.GenomicServer.start(GenomicServer.java:43)
-	at com.genomic.server.GenomicServer.main(GenomicServer.java:119)
-	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:371)
-	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:360)
-	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:280)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-2025-09-09 21:23:01.253 [Thread-2] INFO  com.genomic.server.GenomicServer - Stopping Genomic Server...
-2025-09-09 21:23:01.253 [Thread-2] INFO  com.genomic.server.GenomicServer - Server stopped
+2025-09-10 15:09:06.724 [com.genomic.client.GenomicClient.main()] INFO  com.genomic.client.GenomicClient - Disconnected from server
+2025-09-10 15:09:06.727 [pool-1-thread-1] INFO  com.genomic.server.ClientHandler - Client connection closed
+2025-09-10 15:17:34.741 [Thread-2] INFO  com.genomic.server.GenomicServer - Stopping Genomic Server...
+2025-09-10 15:17:34.745 [Thread-2] INFO  com.genomic.server.GenomicServer - Server stopped
