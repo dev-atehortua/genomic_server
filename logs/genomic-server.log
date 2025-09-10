@@ -68,3 +68,20 @@ java.util.InputMismatchException: null
 2025-09-10 15:09:06.727 [pool-1-thread-1] INFO  com.genomic.server.ClientHandler - Client connection closed
 2025-09-10 15:17:34.741 [Thread-2] INFO  com.genomic.server.GenomicServer - Stopping Genomic Server...
 2025-09-10 15:17:34.745 [Thread-2] INFO  com.genomic.server.GenomicServer - Server stopped
+2025-09-10 16:49:05.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.PatientService - Loading patients from CSV file: data/patients.csv
+2025-09-10 16:49:05.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Starting Genomic Server...
+2025-09-10 16:49:05.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Loading disease database...
+2025-09-10 16:49:05.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loading disease database from catalog: data/disease_catalog.csv
+2025-09-10 16:49:05.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: CANC001 - Lung Cancer Marker
+2025-09-10 16:49:05.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: DIAB001 - Type 1 Diabetes Susceptibility
+2025-09-10 16:49:05.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HEART001 - Cardiac Arrhythmia Risk
+2025-09-10 16:49:05.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: ALZH001 - Alzheimer's Disease Risk
+2025-09-10 16:49:05.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Loaded disease: HYPER001 - Hypertension Predisposition
+2025-09-10 16:49:05.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.service.DiseaseDatabase - Disease database loaded successfully. Total diseases: 5
+2025-09-10 16:49:05.607 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Disease database loaded successfully. Total diseases: 5
+2025-09-10 16:49:05.656 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - SSL/TLS configured successfully
+2025-09-10 16:49:05.656 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - Server started on port 8443 with SSL/TLS
+2025-09-10 16:49:52.243 [com.genomic.client.GenomicClient.main()] INFO  com.genomic.client.GenomicClient - Connecting to server at localhost:8443
+2025-09-10 16:49:52.337 [com.genomic.client.GenomicClient.main()] INFO  com.genomic.client.GenomicClient - Connected to server successfully
+2025-09-10 16:49:52.337 [com.genomic.server.GenomicServer.main()] INFO  com.genomic.server.GenomicServer - New client connection accepted
+2025-09-10 16:49:52.337 [pool-3-thread-1] INFO  com.genomic.server.ClientHandler - Client connected from: /127.0.0.1:49969
