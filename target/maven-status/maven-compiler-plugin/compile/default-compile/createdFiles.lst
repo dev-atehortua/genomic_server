@@ -1,0 +1,13 @@
+com\genomic\server\ClientHandler.class
+com\genomic\model\Disease.class
+com\genomic\util\FastaValidator.class
+com\genomic\model\Patient.class
+com\genomic\server\GenomicServer.class
+com\genomic\service\PatientService.class
+com\genomic\service\GenomeAnalyzer.class
+com\genomic\model\DetectionReport.class
+com\genomic\client\GenomicClient.class
+com\genomic\service\DiseaseDatabase.class
+com\genomic\util\ChecksumUtil.class
+com\genomic\client\GenomicClient$AcceptAllTrustManager.class
+com\genomic\protocol\GenomicProtocol.class

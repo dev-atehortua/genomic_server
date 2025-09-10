@@ -1,0 +1,6 @@
+disease_id,name,severity
+CANC001,Lung Cancer Marker,9
+DIAB001,Type 1 Diabetes Susceptibility,6
+HEART001,Cardiac Arrhythmia Risk,7
+ALZH001,Alzheimer's Disease Risk,8
+HYPER001,Hypertension Predisposition,5
